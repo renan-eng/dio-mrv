@@ -35,3 +35,9 @@ Manipulando um arquivo JS
 
 Podemos executar um arquivo js atraves do console com a ferramenta NODEJS
 
+/*************** DOM - DOCUMENT OBJECT MODEL **************/
+
+- Estrutura dos elementos dentro da janela do browser
+- Uma estrutura reslacional que liga todos os elementos filhos a elementos pais unidirecional
+
+Pequisar sobre addEventListener
