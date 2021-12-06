@@ -19,5 +19,15 @@ sudo apt update
 sudo apt install code # or code-insiders
 
 
+Atalhos importantes:
+Ctl + p -> pesquisa nome de aquivos
+Ctl + Shift + p -> comandos utilizados recentemente
+
+Emmets são atalhos préconfigurados de algumas linguagens que já vem instalado no vscode
+Exemplo de emmets: ! ou HTML:5 -> cria um template de HTML
 
 
+Integração com Terminal:
+
+Abrir terminal com Ctrl + '
+Podemos utilizar um terminal direto dentro do vscode com todas as funcionalidade do terminal do sistema operacional em que esta.
