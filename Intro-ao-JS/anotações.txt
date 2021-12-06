@@ -1,0 +1,37 @@
+INTRODUÇÃO AO JAVASCRIPT
+
+História:
+
+- Interpretada (browser em tempo real / não é compilada / vê resultado enquanto código é interpretado pelo browser)
+- Baseade em Protótipos (orientação a objetos / )
+- Multiparadigma - pode ser oop ou funcional ou estruturada
+- Comumente utilizada em aplicações web client-side
+- Segue padrão ECMAScript (conjunto de normas que definem funcionalidades de uma linguagem, por exemplo: ES6 arrow function)
+
+Evolução:
+
+- Criado em 1995
+- ECMAScript 1 1997
+- ECMAScript 3 regular expresssions + try/catch (errors)
+- ECMAScript 5 JSON support, string.trim(), suporte a Array.isArray()
+- ECMAScript 6 2015 muitas atualizações e novas funções
+
+Aplicações
+
+- Web
+- Mobile
+- Smartwatches
+- Games
+- Internet of Things
+- APIs
+
+
+NODEJS = server side
+
+/***************FIM PRIMEIRO MÓDULO**************/
+
+
+Manipulando um arquivo JS
+
+Podemos executar um arquivo js atraves do console com a ferramenta NODEJS
+
