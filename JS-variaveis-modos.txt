@@ -1,0 +1,7 @@
+Existem 3 modos de declarar variáveis em JavaScript:
+
+1) var - escopo global e local, pode ter seu valor alterado, se não tiver um valor inicial será trada com null;
+
+2) let - escopo local de bloco, pode ter seu valor alterado, se não tiver um valor incial será tratada como null;
+
+3) const - escopo local de bloco, somente leitura, o valor inicial obrigatório e não pode ser alterado.
