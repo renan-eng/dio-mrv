@@ -41,3 +41,25 @@ Podemos executar um arquivo js atraves do console com a ferramenta NODEJS
 - Uma estrutura reslacional que liga todos os elementos filhos a elementos pais unidirecional
 
 Pequisar sobre addEventListener
+
+/*************** DECLRACAO DE VARIAS EM JS **************/
+
+Existem 3 modos de declarar variáveis em JavaScript:
+
+1) var - escopo global e local, pode ter seu valor alterado, se não tiver um valor inicial será trada com null;
+
+2) let - escopo local de bloco, pode ter seu valor alterado, se não tiver um valor incial será tratada como null;
+
+3) const - escopo local de bloco, somente leitura, o valor inicial obrigatório e não pode ser alterado.
+
+
+Métodos Array:
+
+forEach() - ler e executa ações para cada item de um Array
+push()    - adicionar item no final do Array
+pop()     - remove item no final do Array
+shift()   - remove item no início do Array
+unshift() - adiciona item no início do array
+idexOf()  - retorna o índice de um valor
+splice()  - remove ou substitui um item pelo índice
+slice()   - retorna um parte de um array existente
