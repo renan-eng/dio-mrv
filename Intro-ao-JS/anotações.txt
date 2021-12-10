@@ -52,6 +52,7 @@ Existem 3 modos de declarar variáveis em JavaScript:
 
 3) const - escopo local de bloco, somente leitura, o valor inicial obrigatório e não pode ser alterado.
 
+/*************** ARRAYS E OBJETOS **************/
 
 Métodos Array:
 
