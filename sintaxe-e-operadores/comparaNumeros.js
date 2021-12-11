@@ -1,3 +1,13 @@
+/* 
+  Objetivo dessa função:
+  
+    Receber dois números n1 e n2 quaisquer. 
+    Comparar se os dois número são diferentes ou iguais,
+    E dizser se a soma dos dois numero é maior/menor que 10 e maior/menor que 20.
+
+    Exemplo de entrada: 1, 2. (ou quaisquer número reais)
+    Saída esperada: Os numero 1 e 2 {não} são iguais. Sua soma é 3, que é maior/menor que 10 e maior/menor que 20.
+ */
 function comparaNumeros(n1, n2) {
   const primeiraFrase = criaPrimeiraFrase(n1, n2);
   const segundaFrase = criaSegundaFrase(n1, n2);
