@@ -16,4 +16,4 @@ let arr = [1, 3, 0, 6, 80, 33,  23, 90]
 //arr = []
 //arr = ['lksdjfasdf', 'dfgsd']
 
-console.log(removePar(arr));
+console.log(removePar(arr));    
