@@ -21,6 +21,6 @@ console.log(mySet);
 Set vs Arrays:
 
 - Possui valores únicos
-- Em vez da propriedade length, consulta-se o número de regisros pela propriedade sizecion
+- Em vez da propriedade length, consulta-se o número de regisros pela propriedade size
 - Não possui os métodos map, filter, reduce etc..
 */
