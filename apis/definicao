@@ -1,0 +1,8 @@
+O que são APIs?
+Application Programming Interface
+
+Uma API é uma forma de intermediar os resultados de back-end com o que é apresentado no front-end.
+Você consegue acessá-la por meio de URLs.
+
+É muito comum que APIs retornem seus dados no formato .json (JavaScript Object Notation), portanto
+precisamos tratar esses dados quando os recebermos.
