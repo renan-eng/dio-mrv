@@ -56,23 +56,35 @@ function start() { // Inicio da função start
   function movejogador() {
 	
     if (jogo.pressionou[TECLA.W]) {
+      
       var topo = parseInt($("#jogador").css("top"));
       $("#jogador").css("top",topo-10);
+
+      if (topo<=0) {	
+        // Verifica se o jogador atingiu o limite superior da tela do jogo e impede que ele passe disso	
+        $("#jogador").css("top",topo+10);
+      }
+      
     
     }
     
     if (jogo.pressionou[TECLA.S]) {
-      
+           
       var topo = parseInt($("#jogador").css("top"));
-      $("#jogador").css("top",topo+10);	
+      $("#jogador").css("top",topo+10);
+      
+      if (topo>=434) {
+        // Verifica se o jogador atingiu o limite inferior da tela do jogo e impede que ele passe disso	
+        $("#jogador").css("top",topo-10);          
+      }
     }
     
     if (jogo.pressionou[TECLA.D]) {
       
-      //Chama fun��o Disparo	
+      //Chama função Disparo	
     }
   
-    } // fim da fun��o movejogador()
+    } // fim da funçãoo movejogador()
 
 } // Fim da função start
 
