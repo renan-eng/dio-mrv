@@ -105,25 +105,6 @@ body {
 		to { background-position: -512px; }
 }
 
-.anima1 {
-	background-image:url(../imgs/helicoptero.png);
-	animation:play .5s steps(2) infinite;
-
-       -webkit-animation: play .5s steps(2) infinite; /* google chrome */
-       -moz-animation: play .5s steps(2) infinite; 		/* mozila firefox */
-       -ms-animation: play .5s steps(2) infinite; 		/* internet explorer */
-       -o-animation: play .5s steps(2) infinite; 			/* opera */
-}
-
-.anima2 {
-	background-image:url(../imgs/inimigo1.png);
-	animation: play .5s steps(2) infinite;
-	-webkit-animation: play .5s steps(2) infinite;
-	-moz-animation: play .5s steps(2) infinite;
-	-ms-animation: play .5s steps(2) infinite;
-	-o-animation: play .5s steps(2) infinite; 
-}
-
 @keyframes play2 {
 	from {background-position:0px;}
 	to {background-position:-528px;}
@@ -147,6 +128,25 @@ body {
 @-o-keyframes play2 {
    from { background-position:    0px; }
      to { background-position: -528px; }
+}
+
+.anima1 {
+	background-image:url(../imgs/helicoptero.png);
+	animation:play .5s steps(2) infinite;
+
+       -webkit-animation: play .5s steps(2) infinite; /* google chrome */
+       -moz-animation: play .5s steps(2) infinite; 		/* mozila firefox */
+       -ms-animation: play .5s steps(2) infinite; 		/* internet explorer */
+       -o-animation: play .5s steps(2) infinite; 			/* opera */
+}
+
+.anima2 {
+	background-image:url(../imgs/inimigo1.png);
+	animation: play .5s steps(2) infinite;
+	-webkit-animation: play .5s steps(2) infinite;
+	-moz-animation: play .5s steps(2) infinite;
+	-ms-animation: play .5s steps(2) infinite;
+	-o-animation: play .5s steps(2) infinite; 
 }
 
 .anima3 {
