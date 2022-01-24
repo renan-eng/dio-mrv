@@ -2,6 +2,7 @@ import './App.css';
 import Button from './Componentes/Button';
 import ComponenteA from './Componentes/ComponenteA'
 import ComponenteB from './Componentes/ComponenteB'
+import ComponenteClasse from './Componentes/ComponenteClasse'
 
 function primeiroJSX() {
   return (
@@ -19,7 +20,7 @@ function App() {
     <div className="App teste">
       <h1>Hello Word</h1>
       {primeiroJSX()}
-      <p>Soma: {res(  234234,22342343)}</p>
+      <p>Soma: {res( 234234,22342343)}</p>
       {element}
       {element1}
       <Button onClick={() => soma(12,23)} name="Renan"/>
@@ -29,6 +30,8 @@ function App() {
           <Button onClick={() => soma(123123,2342343)} name="Reimund"/>
         </ComponenteB>
       </ComponenteA>
+
+      <ComponenteClasse/>
 
     </div>
   );
