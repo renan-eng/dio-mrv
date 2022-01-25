@@ -1,0 +1,162 @@
+INTRODUÇÃO AO JAVASCRIPT
+
+História:
+
+- Interpretada (browser em tempo real / não é compilada / vê resultado enquanto código é interpretado pelo browser)
+- Baseade em Protótipos (orientação a objetos / )
+- Multiparadigma - pode ser oop ou funcional ou estruturada
+- Comumente utilizada em aplicações web client-side
+- Segue padrão ECMAScript (conjunto de normas que definem funcionalidades de uma linguagem, por exemplo: ES6 arrow function)
+
+Evolução:
+
+- Criado em 1995
+- ECMAScript 1 1997
+- ECMAScript 3 regular expresssions + try/catch (errors)
+- ECMAScript 5 JSON support, string.trim(), suporte a Array.isArray()
+- ECMAScript 6 2015 muitas atualizações e novas funções
+
+Aplicações
+
+- Web
+- Mobile
+- Smartwatches
+- Games
+- Internet of Things
+- APIs
+
+
+NODEJS = server side
+
+/***************FIM PRIMEIRO MÓDULO**************/
+
+
+Manipulando um arquivo JS
+
+Podemos executar um arquivo js atraves do console com a ferramenta NODEJS
+
+/*************** DOM - DOCUMENT OBJECT MODEL **************/
+
+- Estrutura dos elementos dentro da janela do browser
+- Uma estrutura reslacional que liga todos os elementos filhos a elementos pais unidirecional
+
+Pequisar sobre addEventListener
+
+/*************** DECLRACAO DE VARIAS EM JS **************/
+
+Existem 3 modos de declarar variáveis em JavaScript:
+
+1) var - escopo global e local, pode ter seu valor alterado, se não tiver um valor inicial será trada com null;
+
+2) let - escopo local de bloco, pode ter seu valor alterado, se não tiver um valor incial será tratada como null;
+
+3) const - escopo local de bloco, somente leitura, o valor inicial obrigatório e não pode ser alterado.
+
+/*************** ARRAYS E OBJETOS *********************/
+
+Métodos Array:
+
+forEach() - ler e executa ações para cada item de um Array
+push()    - adicionar item no final do Array
+pop()     - remove item no final do Array
+shift()   - remove item no início do Array
+unshift() - adiciona item no início do array
+idexOf()  - retorna o índice de um valor
+splice()  - remove ou substitui um item pelo índice
+slice()   - retorna um parte de um array existente
+
+/*************** ESTRUTURA CONDICIONAIS / REPETIÇÃO *********************/
+
+Exemplo de estrutura condicional utilizando If-else:
+
+  if (i % 2 == 0) {
+    alert("O número i é par, pois o resto da divisão por dois é igual a zero")
+  }else{
+    alert("Existe resto na divisão por dois, portando o número i é ímpar")
+  }
+
+Exemplo de switch (MDN Docs):
+
+  const expr = 'Papayas';
+  switch (expr) {
+    case 'Oranges':
+      console.log('Oranges are $0.59 a pound.');
+      break;
+    case 'Mangoes':
+    case 'Papayas':
+      console.log('Mangoes and papayas are $2.79 a pound.');
+      // expected output: "Mangoes and papayas are $2.79 a pound."
+      break;
+    default:
+      console.log(`Sorry, we are out of ${expr}.`);
+  }
+
+Exempl de For:
+
+for (var i = 0; i < 9; i++) {
+   console.log(i);
+   // more statements
+}
+
+Todas as três expressões na condição do loop for são opcionais.
+
+var i = 0;
+for (; i < 9; i++) {
+    console.log(i);
+    // more statements
+}
+
+Assim como ocorre no bloco de inicialização, a condição também é opcional. Se você está omitindo essa expressão, você deve certificar-se de quebrar o loop no corpo para não criar um loop infinito.
+
+for (var i = 0;; i++) {
+   console.log(i);
+   if (i > 3) break;
+   // more statements
+}
+
+Você também pode omitir todos os três blocos. Novamente, certifique-se de usar uma instrução break no final do loop e também modificar (incrementar) uma variável, para que a condição do break seja verdadeira em algum momento.
+
+var i = 0;
+
+for (;;) {
+  if (i > 3) break;
+  console.log(i);
+  i++;
+}
+
+For...in:
+O laço for...in  interage sobre propriedades enumeradas de um objeto, na ordem original de inserção.  O laço pode ser executado para cada propriedade distinta do objeto.
+
+//Objeto
+var obj = {a:1, b:2, c:3};
+
+//Para prop (propriedade) in obj (objeto) faça
+for (var prop in obj) {
+  // ctrl+shift+k (para abrir o console no mozilla firefox)
+  console.log("obj." + prop + " = " + obj[prop]);
+}
+
+//A saída (output) deverá ser:
+// "obj.a = 1"
+// "obj.b = 2"
+// "obj.c = 3"
+
+##OBS: for...in não deve ser usado para iteração em uma Array onde a ordem é importante, visto que ele iterage em uma ordem arbitrária.
+
+
+/*************** Expresssões de funções *********************/
+
+Ex.: 
+var função = function(){
+  console.log("a nomeação da função é opcional nesse caso")
+}
+
+Arrow function:
+
+var function = ()  => {console.log("esta é uma arrow function)}
+
+Criando uma calculadora em JS:
+Number()         - para converter valores em números
+Prompt()         - para registrar entradas de usuário
+Alert()          - para mostrar mensagem ao usuário
+Template Strings - para user srings jumto com expressões 
